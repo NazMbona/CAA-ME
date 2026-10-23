@@ -1,2 +1,2 @@
 # CAA-ME
-Mayam-EDMS Django matters to accommodate (Kenyan)Law Firm
+Mayam-EDMS Django matters App to accommodate (Kenyan)Law Firm environment.
