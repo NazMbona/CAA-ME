@@ -1,2 +1,2 @@
 # CAA-ME
-Mayam-EDMS added features to accomodate Law Firm
+Mayam-EDMS Django matters to accommodate (Kenyan)Law Firm
