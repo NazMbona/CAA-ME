@@ -9,13 +9,12 @@ DATABASES["matters_db"] = {
     "NAME": "matters_db",
     "USER": "matters_user",
     "PASSWORD": "your_password",
-    "HOST": "localhost",   # or the postgres container hostname
+    "HOST": "localhost",
     "PORT": "5432",
 }
 
 # ------------------------------------------------------------
 # Register the custom app and route it to matters_db
 # ------------------------------------------------------------
-INSTALLED_APPS += ["matters"]
-
+INSTALLED_APPS += ["matters.apps.MattersConfig"]
 DATABASE_ROUTERS = ["app_routing.MattersRouter"]
